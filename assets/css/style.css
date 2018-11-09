@@ -34,6 +34,7 @@ body {
     max-width: 300px;
     word-wrap: break-word;
     color: yellow;
+    letter-spacing: 5px;
 }
 
 #guesses-text {
