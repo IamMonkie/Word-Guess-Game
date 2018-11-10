@@ -148,10 +148,10 @@ $(document).ready(function () {
             };
 
              
-        }
+        } //allow input close
         
-    });
-}; // ready close
+    }); //button close
+}); // ready close
 
 
 
