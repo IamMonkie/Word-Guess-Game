@@ -1,76 +1,147 @@
 .titleContainer {
-    background-color: mediumslateblue;
-    text-align: center;
-    font-size: 50px;
-    
+  background-color: mediumslateblue;
+  text-align: center;
+  font-size: 50px;
 }
 
 body {
-    background: aqua fixed center no-repeat;
-    font-family: 'Rye', cursive;
-    font-size: 24px;
-    
+  background: aqua fixed center no-repeat;
+  font-family: "Rye", cursive;
+  font-size: 24px;
 }
 
 .container {
-    background-color: burlywood;
-    margin: 10px auto;
-    width:80%;
+  background-color: burlywood;
+  margin: 10px auto;
+  width: 80%;
 }
 
 .textContainer {
-    margin: 20px;
-    min-height: 700px; 
-    max-width: 350px;
-    background-color: gold;
+  margin: 20px;
+  min-height: 700px;
+  max-width: 350px;
+  background-color: gold;
 }
 
 .puzzleContainer {
-    background-color: purple;
-    text-align: center;
+  background-color: purple;
+  text-align: center;
 }
 
 #puzzle-text {
+  max-width: 300px;
+  word-wrap: break-word;
+  color: yellow;
+  letter-spacing: 5px;
+}
+
+#guesses-text {
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+.guessContainer {
+  background-color: lime;
+  text-align: center;
+}
+
+.imagesContainer {
+  margin: 20px;
+  height: 700px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.controlsContainer {
+  margin-top: 10px;
+  line-height: 20px;
+  background-color: coral;
+}
+
+#startBtn {
+  font-size: 24px;
+  color: #212529;
+}
+#resetBtn {
+  font-size: 24px;
+  color: #212529;
+}
+
+/* problems */
+/* cant get imagesContainer to = text container height */
+
+@media screen and (orientation: landscape) {
+  // CSS applied when the device is in landscape mode
+
+  .titleContainer {
+    background-color: mediumslateblue;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  body {
+    background: aqua fixed center no-repeat;
+    font-family: "Rye", cursive;
+    font-size: 24px;
+  }
+
+  .container {
+    background-color: burlywood;
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  .textContainer {
+    margin: 20px;
+    min-height: 700px;
+    max-width: 350px;
+    background-color: gold;
+  }
+
+  .puzzleContainer {
+    background-color: purple;
+    text-align: center;
+  }
+
+  #puzzle-text {
     max-width: 300px;
     word-wrap: break-word;
     color: yellow;
     letter-spacing: 5px;
-}
+  }
 
-#guesses-text {
+  #guesses-text {
     max-width: 300px;
     word-wrap: break-word;
-}
+  }
 
-.guessContainer {
+  .guessContainer {
     background-color: lime;
     text-align: center;
-}
+  }
 
-.imagesContainer {
+  .imagesContainer {
     margin: 20px;
-    height: 700px; 
+    height: 700px;
     background-color: lightblue;
     text-align: center;
-}
+  }
 
-.controlsContainer {
+  .controlsContainer {
     margin-top: 10px;
     line-height: 20px;
     background-color: coral;
-}
+  }
 
-#startBtn {
+  #startBtn {
     font-size: 24px;
     color: #212529;
-
-}
-#resetBtn {
+  }
+  #resetBtn {
     font-size: 24px;
     color: #212529;
+  }
 
+  /* problems */
+  /* cant get imagesContainer to = text container height */
 }
-
-
-/* problems */
-/* cant get imagesContainer to = text container height */
